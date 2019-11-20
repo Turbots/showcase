@@ -1,0 +1,14 @@
+{
+  "name": "ONZE NODE",
+  "network": "vodafone",
+  "sensors": [
+    {
+      "type": "VOLTAGE",
+      "value": "4"
+    },
+    {
+      "type": "HUMIDITY",
+      "value": "50"
+    }
+  ]
+}

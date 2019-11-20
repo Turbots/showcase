@@ -1,0 +1,11 @@
+---
+applications:
+  - name: showcase-rest
+    path: target/showcase-rest.jar
+    buildpacks:
+      - java_buildpack_offline
+    instances: 1
+    services:
+      - showcase-db
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ }}'
